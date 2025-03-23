@@ -20,8 +20,12 @@ public class Customer implements Standstill {
     )
     private Standstill previousStandstill;
 
-    @InverseRelationShadowVariable(sourceVariableName = "previousStandstill")
+    @InverseRelationShadowVariable(
+        sourceVariableName = "previousStandstill",
+        sourceEntityClass = Customer.class
+    )
     private Standstill nextCustomer;
+
 
     public String getId() {
         return id;
