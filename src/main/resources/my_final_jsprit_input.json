@@ -1,0 +1,41 @@
+{
+  "vehicles": [
+    {
+      "vehicle_id": "truck_1",
+      "start_address": {
+        "location_id": "depot",
+        "lon": 120.655799,
+        "lat": 24.136102
+      },
+      "capacity": [
+        1000
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "2",
+      "name": "商家2",
+      "address": {
+        "location_id": "2",
+        "lon": 120.665882,
+        "lat": 24.150388
+      },
+      "size": [
+        25
+      ]
+    },
+    {
+      "id": "3",
+      "name": "商家3",
+      "address": {
+        "location_id": "3",
+        "lon": 120.678276,
+        "lat": 23.903704
+      },
+      "size": [
+        25
+      ]
+    }
+  ]
+}
