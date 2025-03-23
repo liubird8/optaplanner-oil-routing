@@ -1,5 +1,3 @@
-package org.example.domain;
-
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 import org.optaplanner.core.api.domain.variable.InverseRelationShadowVariable;
@@ -54,7 +52,7 @@ public class Customer implements Standstill {
     }
 
     public Customer getNextCustomer() {
-        return nextCustomer;
+        return (Customer) nextCustomer;
     }
 
     public void setNextCustomer(Customer nextCustomer) {
