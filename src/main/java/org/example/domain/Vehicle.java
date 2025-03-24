@@ -36,7 +36,7 @@ public class Vehicle implements Standstill {
     }
 
     public Customer getNextCustomer() {
-        return nextCustomer;
+        return null;
     }
 
     public void setNextCustomer(Customer nextCustomer) {
