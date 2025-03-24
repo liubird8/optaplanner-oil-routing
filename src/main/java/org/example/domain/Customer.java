@@ -15,7 +15,7 @@ public class Customer implements Standstill {
     private int demand;
 
     @PlanningVariable(
-        valueRangeProviderRefs = {"vehicleRange", "customerRange"},
+        valueRangeProviderRefs = {"customerRange"},
         graphType = PlanningVariableGraphType.CHAINED
     )
     private Standstill previousStandstill;

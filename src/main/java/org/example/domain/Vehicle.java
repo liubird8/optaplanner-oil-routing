@@ -9,7 +9,7 @@ public class Vehicle implements Standstill {
     private int capacity;
 
     
-    private Customer nextCustomer;
+    
 
     public String getId() {
         return id;
@@ -35,13 +35,6 @@ public class Vehicle implements Standstill {
         this.capacity = capacity;
     }
 
-    public Customer getNextCustomer() {
-        return null;
-    }
-
-    public void setNextCustomer(Customer nextCustomer) {
-        this.nextCustomer = nextCustomer;
-    }
 
     @Override
     public Location getLocation() {

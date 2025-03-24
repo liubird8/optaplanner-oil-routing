@@ -20,7 +20,6 @@ public class RouteSolution {
     private List<Customer> customerList;
 
     @ValueRangeProvider(id = "standstillRange")
-
     public List<Customer> getStandstillList() {
     return customerList;
     }
