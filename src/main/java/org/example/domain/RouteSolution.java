@@ -19,6 +19,12 @@ public class RouteSolution {
     @ValueRangeProvider(id = "customerRange")
     private List<Customer> customerList;
 
+    @ValueRangeProvider(id = "standstillRange")
+
+    public List<Customer> getStandstillList() {
+    return customerList;
+    }
+
     @PlanningScore
     private HardSoftScore score;
 
