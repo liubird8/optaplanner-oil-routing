@@ -21,7 +21,7 @@ public class Customer implements Standstill {
     private Standstill previousStandstill;
 
     @InverseRelationShadowVariable(sourceVariableName = "previousStandstill")
-    private Customer nextCustomer;
+    private Standstill nextCustomer;
 
 
     public String getId() {
